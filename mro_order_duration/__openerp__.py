@@ -8,7 +8,7 @@
 
 {
     'name': 'MRO_order_duration',
-    'version': '10.1.0.1',
+    'version': '10.0.1.0',
     'summary': 'Asset Maintenance order calendar drag',
     'description': """
 Make the maintenance order can be drag on the calendar.
