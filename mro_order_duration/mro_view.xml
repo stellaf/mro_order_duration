@@ -27,5 +27,10 @@
             </xpath>
            </field>
         </record>
+        <menuitem name="Maintenance"
+            id="base.menu_mro_root"
+            web_icon="mro,static/description/icon.png"
+            groups="asset.group_mro_customer"
+            sequence="80"/>
  	</data>
 </openerp>
