@@ -8,7 +8,7 @@
 
 {
     'name': 'MRO_order_duration',
-    'version': '10.0.1.0',
+    'version': '10.0.2.0',
     'summary': 'Asset Maintenance order calendar drag',
     'description': """
 Make the maintenance order can be drag on the calendar.
@@ -20,7 +20,7 @@ Main Features
 -------------
     * add field duration for asset Maintenance order
     * so that the maintenance order time duration can be drag on the calendar
-
+    * it also show the web_icon for the application mro
 Required modules:
     * asset
     * mro 
