@@ -8,7 +8,7 @@
 
 {
     'name': 'MRO_order_duration',
-    'version': '10.0.1.0',
+    'version': '10.0.3.0',
     'summary': 'Asset Maintenance order calendar drag',
     'description': """
 Make the maintenance order can be drag on the calendar.
@@ -18,8 +18,11 @@ Asset Maintenance, Repair and Operation.
 
 Main Features
 -------------
-    * add field duration for asset Maintenance order
-    * so that the maintenance order time duration can be drag on the calendar
+    * add field duration for asset Maintenance order, so that the maintenance order time duration can be drag on the calendar
+    * add the web_icon for the mro application
+    * add the maintenance request button in the asset form
+    * the active asset id is filled when create a maintenace request from the asset form 
+    * the active asset id is filled when create a maintenace order from the asset form 
 
 Required modules:
     * asset
@@ -31,6 +34,7 @@ Required modules:
     'sequence': 0,
     'depends': ['asset','mro'],
     'data': [
+       'asset_view.xml',
        'mro_view.xml',
    ],
     'installable': True,
