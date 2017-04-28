@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data>
-
+    <data>
         <!-- Maintenance order menu -->
         <record id="mro_order_calendar_view" model="ir.ui.view">
             <field name="name">mro.order.calendar</field>
@@ -32,5 +31,5 @@
             web_icon="mro,static/description/icon.png"
             groups="asset.group_mro_customer"
             sequence="80"/>
- 	</data>
+    </data>
 </openerp>
